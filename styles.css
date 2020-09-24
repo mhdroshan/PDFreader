@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+
+.pdfHolder{
+  height: 94vh;
+  max-width: 750px;
+  margin: 20px auto;
+}
+.navLeft,
+.navRight{
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin: 10px 25px;
+  position: sticky;;
+  color: white;
+  font-size: 30px;
+  background-color: #37474F;
+  text-align: center;
+  transition: .3s ease;
+}
+.navLeft{
+top: 50%;
+margin-top: -30px;
+float: left;
+}
+
+.navRight{
+  top: 50%;
+  margin-top: -30px;
+ float: right;
+}
+.navLeft:hover,
+.navRight:hover{
+background-color: #2e86b1;
+transform: scale(1.07);
+transform-origin: center;
+box-shadow: 0px 0px 5px 3px #000000b0;
+
+}
+
+.navRight a,
+.navLeft a{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.fa{
+  vertical-align: middle;
+}
