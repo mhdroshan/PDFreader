@@ -31,7 +31,10 @@
   background-color: #37474F;
   text-align: center;
   transition: .3s ease;
-  line-height: 36px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55%;
+
 }
 
 .navLeft {
@@ -50,8 +53,8 @@
   background-color: #2e86b1;
   transform: scale(1.07);
   transform-origin: center;
-  color: #032636;
-  font-size: 26px;
+  /* color: #032636;
+  font-size: 26px; */
   box-shadow: 0px 0px 5px 3px #000000b0;
 }
 
@@ -63,6 +66,6 @@
   bottom: 0;
 }
 
-.fa {
+/* .fa {
   vertical-align: bottom;
-}
+} */
